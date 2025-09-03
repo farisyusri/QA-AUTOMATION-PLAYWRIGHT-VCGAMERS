@@ -18,6 +18,7 @@
 1. From the search results, click the **first item/brand**
 2. Verify the brand detail page opens (URL changes or brand title is visible)
 
+
  
 ## **-Scenario B - Search Bar Interaction**
  1 On the Gercep page, type 'mobile legends' in the search bar
