@@ -1,9 +1,23 @@
 # QA Automation - Gercep Test (Playwright)
 
-## **-Scenario A - Open Gercep Page & Check Title**
- 1 Open https://vcgamers.com/gercep
- 2 Verify the URL contains /gercep
- 3 Verify the page title contains 'VCGamers'
+## Scenario A - Open Gercep Page & Check Title
+1. Open [https://vcgamers.com/gercep](https://vcgamers.com/gercep)
+2. Verify the URL contains `/gercep`
+3. Verify the page title contains **"VCGamers"**
+
+---
+
+## Scenario B - Search Bar Interaction
+1. On the Gercep page, type **"mobile legends"** in the search bar
+2. Press **Enter**
+3. Verify at least one search result is visible
+
+---
+
+## Scenario C - Click First Item
+1. From the search results, click the **first item/brand**
+2. Verify the brand detail page opens (URL changes or brand title is visible)
+
  
 ## **-Scenario B - Search Bar Interaction**
  1 On the Gercep page, type 'mobile legends' in the search bar
