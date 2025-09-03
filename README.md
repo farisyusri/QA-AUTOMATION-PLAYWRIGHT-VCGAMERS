@@ -56,3 +56,8 @@
 3. Run the specific test file:
    ```bash
    npx playwright test tests/gercep.spec.js --headed
+
+4. After the test finishes, view the test results:
+
+   ```bash
+   npx playwright show-report
